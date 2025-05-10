@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+sudo add-apt-repository universe -y
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y python3-pip ffmpeg python3-gi
 sudo pip3 install -U yt-dlp requests youtube-dl
